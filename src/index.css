@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-navy text-text-primary font-sans leading-relaxed;
+}
+
+:focus-visible {
+  outline: 2px solid #64ffda;
+  outline-offset: 2px;
+}
+
+section {
+  scroll-snap-align: start;
+  @apply flex justify-center;
+}
+
+main {
+  scroll-snap-type: y proximity;
+}
+
+.divider {
+  @apply w-full h-0.5 bg-highlight my-12 rounded;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+} 
