@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://akshaygupta.github.io/website-new",
+  "homepage": "https://akshayg99.github.io/AkshayGupta",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
