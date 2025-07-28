@@ -57,6 +57,28 @@ const projects = [
     screenshots: [],
   },
   {
+    title: 'ShopFit',
+    description: 'A personalized outfit builder built as a Shopify Shop Mini that helps users mix and match tops and bottoms in real time, discover their unique style through a style quiz, and visualize outfits using AI-powered virtual try-on.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'shop-minis-react SDK', 'Fal.ai'],
+    github: '',
+    demo: 'https://youtu.be/Q2KbmuU6kZI',
+    dates: '2024',
+    role: 'Full Stack Developer',
+    tools: ['React', 'TypeScript', 'Tailwind CSS', 'shop-minis-react SDK', 'Fal.ai client'],
+    fullDescription: 'Developed ShopFit, a personalized outfit builder built as a Shopify Shop Mini that innovates online fashion shopping. The platform solves three major problems: Style Discovery through a style quiz, Outfit Matching by removing guesswork of pairing clothes, and Visualization Before Purchase using AI-powered virtual try-on with both photo and video formats. Features include search for products with themes, style quiz for tailored recommendations, virtual try-on with FAL AI, save fits between sessions, share fits, budget management, filter/shuffle products, and add to cart functionality. Built with React, TypeScript, Tailwind CSS, and advanced APIs, ShopFit makes online shopping more personal, visual, and fun.',
+    features: [
+      'AI-powered virtual try-on with photo and video formats',
+      'Style quiz for personalized recommendations',
+      'Real-time outfit mixing and matching',
+      'Save fits between sessions using Shopify async storage',
+      'Shareable outfit links',
+      'Budget management and themed product browsing',
+      'Filter and shuffle products',
+      'Add to cart functionality',
+    ],
+    screenshots: [],
+  },
+  {
     title: 'Breast Cancer Classification',
     description: 'A machine learning project applying linear classification to predict breast cancer presence using diagnostic features.',
     tech: ['Python', 'TensorFlow'],
@@ -113,4 +135,4 @@ const projects = [
   },
 ];
 
-export default projects; 
+export default projects;

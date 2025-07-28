@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const ACCENT = '#64ffda';
+const ACCENT = '#00ff88';
 const NAVY = '#0a192f';
 
 const GradientBackground = () => {
@@ -35,7 +35,7 @@ const GradientBackground = () => {
       last.x += (mouse.current.x - last.x) * 0.15;
       last.y += (mouse.current.y - last.y) * 0.15;
       if (bgRef.current) {
-        bgRef.current.style.background = `radial-gradient(600px at ${last.x * 100}% ${last.y * 100}%, ${ACCENT}22 0%, transparent 80%), ${NAVY}`;
+        bgRef.current.style.background = `radial-gradient(600px at ${last.x * 100}% ${last.y * 100}%, ${ACCENT}40 0%, transparent 80%), ${NAVY}`;
       }
       anim.current = requestAnimationFrame(animate);
     };
